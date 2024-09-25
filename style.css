@@ -46,7 +46,7 @@ body {
 
 .bio {
     font-size: 14.9px;
-    color: #32221f;
+    
     margin-bottom: 20px;
 }
 a {
@@ -101,12 +101,31 @@ a {
     right: 10px;
     padding: 10px;
     cursor: pointer;
-    background-color: #333;
-    color: #fff;
+    background-color: #181d16;
+    color: #2f955a;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .dark-mode {
-    background-color: #333;
-    color: #fff;
+    background-color: #0c0c0c;
+    color: #d4dac6;
+}
+
+audio.music {
+    width: 300px;
+    height: 20px; 
+    background-color: #d11ec2; 
+    border: 1px solid #262ca6;
+    border-radius: 20px; 
+}
+
+audio.music::-webkit-media-controls-panel {
+    background-color: #6c986e; 
+    border-radius: 5px; 
+}
+
+audio.music::-webkit-media-controls-play-button {
+    background-color: #dad6bd; 
+    border-radius: 90%; 
+    size: 10px;
 }
