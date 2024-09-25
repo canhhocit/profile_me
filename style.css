@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    background-color: rgb(201, 168, 185);
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(176, 154, 168, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-header {
+    background-color: #4A90E2;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid rgb(146, 168, 143);
+}
+
+.profile-body {
+    padding: 20px;
+}
+
+.name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0a0202;
+}
+
+.bio {
+    font-size: 14.9px;
+    color: #32221f;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #107142;
+
+
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.social-icon.fb {
+    background-color: #1DA1F2;
+}
+
+.social-icon.ig {
+    background-color: #0077B5;
+}
+
+.social-icon.email{
+    background-color: #706d9f;
+    
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+.toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
